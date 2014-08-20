@@ -1,0 +1,16 @@
+<ion-view title="Dashboard" hide-back-button="true">
+    <ion-content padding="true">
+
+        <div class="list">
+            <label class="item item-input">
+                <span class="input-label">Name</span>
+                <input type="text" ng-model="myName">
+            </label>
+            <ion-toggle ng-model="todo.done" toggle-class="toggle-calm">Done</ion-toggle>
+            <label class="checkbox" ng-click="loadView()">
+                <input type="checkbox" ng-model="todo.done">
+            </label>
+        </div>
+
+    </ion-content>
+</ion-view>
